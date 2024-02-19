@@ -1,0 +1,30 @@
+:root{
+    --verde: rgb(124, 231, 124);
+    --azul-fundo: 3A375E;
+
+}
+.titulo span{
+    color: var(--verde);
+}
+.titulo{
+    font-size: 28px;
+    font-family: "Chakra Petch", sans-serif;
+}
+.chakra-petch-regular {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+#section{
+    border-radius: ;
+    background-color: var(--azul-fundo);
+}
+.botoes{
+    margin-top: 121px;
+    margin-left: 116px; 
+    margin-right: ; 
+    width: 298px; ;
+    height:111px;
+
+}
