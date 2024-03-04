@@ -1,7 +1,13 @@
 :root{
     --verde: rgb(124, 231, 124);
-    --azul-fundo: 3A375E;
+    --azul-fundo: #3A375E;
+    --preto-fundo: #1E1E1E;
+    --branco: #fff;
 
+}
+body{
+    background-color: var(--preto-fundo);
+    
 }
 .titulo span{
     color: var(--verde);
@@ -9,22 +15,28 @@
 .titulo{
     font-size: 28px;
     font-family: "Chakra Petch", sans-serif;
+    color: var(--branco);
 }
 .chakra-petch-regular {
     font-family: "Chakra Petch", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-  
-#section{
-    border-radius: ;
+
+ #section{
+    border-radius: 28px;
     background-color: var(--azul-fundo);
+    width: 1192px;
+    height: 557px;
+    margin-top: 62px;
+    margin-left: 115px;
+    display: flex;
 }
-.botoes{
+.botao{
     margin-top: 121px;
     margin-left: 116px; 
-    margin-right: ; 
-    width: 298px; ;
+    width: 298px; 
     height:111px;
+    
 
 }
