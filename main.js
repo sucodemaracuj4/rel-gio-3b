@@ -35,6 +35,7 @@ horas %= 24;
 
 return dia + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos";
 }
+contadores [0].textContent = calculaTempo(tempoObjetivo1);
 //}if (tempoFinal > 0){
     
     //}} else{
